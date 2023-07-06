@@ -1,0 +1,472 @@
+html {
+  font-size: 62.5%;
+}
+
+.containerHeader {
+  background-color: #0077b6;
+  padding: 16px 8px;
+}
+
+.containerHeader .container {
+  margin: 0 auto;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.containerHeader p {
+  color: white;
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+.containerHeader a {
+  color: #000;
+  font-size: 2.2rem;
+  font-weight: 600;
+  background-color: #ffd814;
+  padding: 16px 36px;
+  border-radius: 32px;
+}
+
+.containerMain {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.containerMain .text {
+  margin: 16px auto;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+.containerMain .text h1 {
+  color: red;
+  font-size: 3.6rem;
+}
+.containerMain .text p {
+  color: #252525;
+  font-size: 2.2rem;
+}
+
+.containerTimer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background-color: red;
+  width: 300px;
+  margin: 0 auto;
+  padding: 8px 16px;
+  border-radius: 16px;
+  color: white;
+  font-size: 1.6rem;
+}
+.containerTimer .number {
+  font-size: 3.2rem;
+}
+.content {
+  margin: 16px auto;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 0 16px;
+}
+.content p {
+  color: red;
+  font-size: 1.6rem;
+}
+.content h3 {
+  color: #252525;
+  font-size: 2.8rem;
+}
+.content h2 {
+  color: red;
+  font-size: 3.6rem;
+}
+.content a {
+  color: #000;
+  font-size: 2.2rem;
+  font-weight: 600;
+  background-color: #ffd814;
+  padding: 16px 36px;
+  border-radius: 32px;
+  border: 2px solid #0d6efd;
+}
+
+.containerNeuro {
+  margin: 32px auto;
+  max-width: 1024px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 16px;
+}
+
+.containerNeuro p {
+  font-size: 2.2rem;
+  width: 60%;
+}
+
+.containerProducts {
+  max-width: 1024px;
+  margin: 32px auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0px 16px;
+}
+.containerProducts img {
+  padding: 12px;
+  width: 300px;
+}
+
+.containerProducts .product {
+  margin: 0 auto;
+  border: 1px solid #0077b6;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.containerProducts .product .bg-blue {
+  background-color: #0077b6;
+  padding: 12px 0px;
+  border-radius: 10px;
+}
+.containerProducts .product .bg-bluelight {
+  background-color: #c5d6ea;
+  padding: 12px 0px;
+  border-radius: 10px;
+}
+
+.containerProducts .product .bg-bluelight span {
+  color: #252525;
+  font-size: 1.8rem;
+}
+.containerProducts .product .bg-blue span {
+  color: #fff;
+  font-size: 1.8rem;
+}
+.containerProducts .product .title {
+  color: #252525;
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+.containerProducts .product .title-w {
+  color: #fff;
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+.containerProducts .product .subtitle {
+  color: #252525;
+  font-size: 1.2rem;
+}
+.containerProducts .product .price {
+  color: #252525;
+  font-size: 6.8rem;
+}
+.containerProducts .product .price span {
+  color: #252525;
+  font-size: 1.8rem;
+}
+.containerProducts .product .description-b {
+  color: #0077b6;
+  font-size: 1.6rem;
+  padding: 6px 0px;
+  border-top: 1px solid #939ba3;
+}
+.containerProducts .product .description {
+  color: #252525;
+  font-size: 1.6rem;
+  padding: 6px 0px;
+  border-top: 1px solid #939ba3;
+}
+
+.containerProducts a {
+  color: #000;
+  font-size: 2.2rem;
+  font-weight: 600;
+  background-color: #ffd814;
+  padding: 8px 0px;
+  border-radius: 32px;
+  border: 2px solid #0d6efd;
+  margin: 24px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerProducts a img {
+  width: 24px;
+}
+
+.containerProducts .product .cards img {
+  width: 150px;
+}
+
+.guaranteed {
+  max-width: 1024px;
+  margin: 32px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.guaranteed img {
+  width: 90%;
+}
+
+.guaranteed a {
+  margin-top: 32px;
+  color: #000;
+  font-size: 2.2rem;
+  font-weight: 600;
+  background-color: #ffd814;
+  padding: 16px 36px;
+  border-radius: 32px;
+  border: 2px solid #0d6efd;
+}
+
+.bonus {
+  max-width: 1024px;
+  display: grid;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  margin: 32px;
+  padding: 16px;
+}
+.bonusText {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  color: #252525;
+  font-size: 2.8rem;
+  padding: 16px;
+}
+.bonus img {
+  width: 34%;
+  border-radius: 10px;
+  border: 1px solid #0077b6;
+}
+
+.bonus .bonuspdf1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bonus .bonuspdf2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bonus .bonuspdf1 p,
+.bonus .bonuspdf2 p {
+  width: 400px;
+  font-size: 2.4rem;
+  color: #252525;
+}
+.bonus .text2 {
+  color: #252525;
+  font-size: 2.4rem;
+  text-align: center;
+  padding: 16px;
+}
+.bonus .text .red {
+  color: red;
+}
+.bonus .bonuspdf1 .text,
+.bonus .bonuspdf2 .text {
+  text-align: center;
+  padding: 16px;
+}
+
+.bonus a {
+  margin: 16px auto;
+  text-align: center;
+  color: #000;
+  font-size: 2.2rem;
+  font-weight: 600;
+  background-color: #ffd814;
+  padding: 16px 12px;
+  border-radius: 32px;
+  border: 2px solid #0d6efd;
+}
+.containerTestimonials {
+  margin: 32px auto;
+  padding: 24px;
+  background-color: #222222;
+  color: #fff;
+}
+
+.testimonials {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials .text {
+  text-align: center;
+}
+.testimonials .text p {
+  font-size: 2.4rem;
+}
+.testimonials .text h2 {
+  font-size: 4rem;
+}
+
+.containerTestimonial {
+  display: flex;
+  max-width: 1024px;
+  padding: 16px 0px;
+  justify-content: center;
+  border-bottom: 1px solid #fff;
+}
+
+.persona {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px 0px;
+  text-align: center;
+}
+
+.persona img {
+  border-radius: 50%;
+}
+.persona strong,
+.persona span {
+  font-size: 1.6rem;
+}
+.review p {
+  font-size: 1.9rem;
+}
+
+.verified {
+  margin: 16px 0px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  font-size: 1.9rem;
+}
+.results {
+  font-size: 1.4rem;
+  margin: 24px 0px;
+}
+.morePersona {
+  max-width: 1024px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+.morePersona div {
+  display: grid;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.morePersona img {
+  width: 38%;
+  border-radius: 10px;
+}
+
+.morePersona div img {
+  width: 90%;
+}
+.containerBottles {
+  display: grid;
+  place-items: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 32px auto;
+  padding: 0 16px;
+}
+
+.containerBottles .callToAction {
+  margin: 16px 0px;
+  display: grid;
+  gap: 16px;
+}
+
+.containerBottles .callToAction a {
+  text-align: center;
+  color: #000;
+  font-size: 2.2rem;
+  font-weight: 600;
+  background-color: #ffd814;
+  padding: 16px 12px;
+  border-radius: 32px;
+  border: 2px solid #0d6efd;
+}
+
+.containerBottles .callToAction p {
+  color: #252525;
+  font-size: 2.4rem;
+}
+
+.containerP {
+  max-width: 1024px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: 32px auto;
+  padding: 0px 16px;
+}
+
+.containerP .text {
+  text-align: center;
+  width: 70%;
+  display: block;
+  gap: 16px;
+  margin: 16px auto;
+}
+
+.containerP .text span {
+  color: #6666;
+  font-size: 1.4rem;
+}
+.containerP .text h2 {
+  color: #252525;
+  font-size: 4rem;
+}
+.containerP .text p {
+  color: #252525;
+  font-size: 1.8rem;
+}
+.containerP .flexImgText {
+  display: flex;
+  padding: 24px 0px;
+}
+.containerP .flexImgText img {
+  width: 48%;
+  height: 60%;
+  border-radius: 8%;
+  padding: 0 24px;
+}
+
+.containerP .flexImgText .description {
+  padding: 0 24px;
+}
+.containerP .flexImgText .description h2 {
+  font-size: 2.8rem;
+  font-weight: 400;
+}
+.containerP .flexImgText .description p {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.textBottle {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #0077b6;
+  margin: 32px 0px;
+}
+.textBottle h2 {
+  max-width: 538px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 3.2rem;
+  padding: 24px 0px;
+}

@@ -1,0 +1,162 @@
+@media (max-width: 768.5px) {
+  .containerNeuro {
+    margin: 32px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 16px;
+  }
+
+  .containerNeuro img {
+    width: 40%;
+  }
+  .containerNeuro p {
+    font-size: 1.8rem;
+    width: 50%;
+  }
+
+  .containerProducts {
+    gap: 8px;
+  }
+  .containerProducts img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 426.5px) {
+  .content h3 {
+    font-size: 1.8rem;
+  }
+  .content h2 {
+    font-size: 2.6rem;
+  }
+
+  .content a {
+    color: #000;
+    font-size: 1.8rem;
+    font-weight: 600;
+    background-color: #ffd814;
+    padding: 16px 36px;
+    border-radius: 32px;
+    border: 2px solid #0d6efd;
+  }
+  .containerNeuro {
+    margin: 32px auto;
+    display: grid;
+    gap: 16px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 16px;
+  }
+
+  .containerNeuro img {
+    width: 100%;
+  }
+  .containerNeuro p {
+    font-size: 1.8rem;
+    width: 100%;
+  }
+
+  .containerProducts {
+    margin: 32px auto;
+    display: grid;
+    gap: 8px;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 16px;
+  }
+
+  .containerProducts img {
+    width: 100%;
+  }
+
+  .guaranteed img {
+    width: 90%;
+  }
+
+  .guaranteed a {
+    margin-top: 32px;
+    color: #000;
+    font-size: 1.8rem;
+    font-weight: 600;
+    background-color: #ffd814;
+    padding: 16px 36px;
+    border-radius: 32px;
+    border: 2px solid #0d6efd;
+  }
+
+  .bonus {
+    margin: 16px auto;
+  }
+
+  .bonusText {
+    font-size: 2.4rem;
+    padding: 0px 16px;
+  }
+
+  .bonus img {
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 10px;
+  }
+
+  .bonus .bonuspdf1 {
+    display: grid;
+  }
+
+  .bonus .bonuspdf2 {
+    display: grid;
+  }
+
+  .bonus .bonuspdf1 p,
+  .bonus .bonuspdf2 p {
+    font-size: 2rem;
+    margin: 0 auto;
+  }
+  .bonus .text2 {
+    color: #252525;
+    font-size: 2rem;
+    text-align: center;
+    padding: 0px 16px;
+  }
+
+  .bonus a {
+    margin: 16px auto;
+    text-align: center;
+    color: #000;
+    font-size: 1.8rem;
+    background-color: #ffd814;
+    padding: 16px 12px;
+    border-radius: 32px;
+    border: 2px solid #0d6efd;
+  }
+
+  .containerTestimonial {
+    display: grid;
+  }
+  .persona img {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .review p {
+    text-align: center;
+    padding: 16px;
+  }
+
+  .containerBottles .callToAction a {
+    font-size: 1.8rem;
+  }
+
+  .containerBottles .callToAction p {
+    font-size: 2rem;
+  }
+  .containerP .flexImgText {
+    display: grid;
+  }
+  .containerP .flexImgText img {
+    width: 100%;
+    height: 90%;
+  }
+}
