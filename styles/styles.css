@@ -26,6 +26,7 @@ html {
   background-color: #ffd814;
   padding: 16px 36px;
   border-radius: 32px;
+  transition: ease 0.5s;
 }
 
 .containerMain {
@@ -92,6 +93,7 @@ html {
   padding: 16px 36px;
   border-radius: 32px;
   border: 2px solid #0d6efd;
+  transition: ease 0.5s;
 }
 
 .containerNeuro {
@@ -115,6 +117,7 @@ html {
   justify-content: center;
   text-align: center;
   padding: 0px 16px;
+  gap: 16px;
 }
 .containerProducts img {
   padding: 12px;
@@ -126,6 +129,10 @@ html {
   border: 1px solid #0077b6;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  transition: ease 0.5s;
+}
+.containerProducts .product:hover {
+  scale: 1.06;
 }
 .containerProducts .product .bg-blue {
   background-color: #0077b6;
@@ -193,9 +200,11 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: ease 0.5s;
 }
+
 .containerProducts a img {
-  width: 24px;
+  width: 18%;
 }
 
 .containerProducts .product .cards img {
@@ -223,6 +232,7 @@ html {
   padding: 16px 36px;
   border-radius: 32px;
   border: 2px solid #0d6efd;
+  transition: ease 0.5s;
 }
 
 .bonus {
@@ -231,7 +241,7 @@ html {
   gap: 16px;
   justify-content: center;
   align-items: center;
-  margin: 32px;
+  margin: 32px auto;
   padding: 16px;
 }
 .bonusText {
@@ -243,7 +253,7 @@ html {
   padding: 16px;
 }
 .bonus img {
-  width: 34%;
+  width: 32%;
   border-radius: 10px;
   border: 1px solid #0077b6;
 }
@@ -289,6 +299,7 @@ html {
   padding: 16px 12px;
   border-radius: 32px;
   border: 2px solid #0d6efd;
+  transition: ease 0.5s;
 }
 .containerTestimonials {
   margin: 32px auto;
@@ -398,6 +409,7 @@ html {
   padding: 16px 12px;
   border-radius: 32px;
   border: 2px solid #0d6efd;
+  transition: ease 0.5s;
 }
 
 .containerBottles .callToAction p {
@@ -469,4 +481,8 @@ html {
   color: #fff;
   font-size: 3.2rem;
   padding: 24px 0px;
+}
+
+a:hover {
+  filter: brightness(1.1);
 }
